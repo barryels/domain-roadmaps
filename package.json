@@ -1,0 +1,24 @@
+{
+  "name": "domainmaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barryels/domainmaps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barryels/domainmaps/issues"
+  },
+  "homepage": "https://github.com/barryels/domainmaps#readme",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
