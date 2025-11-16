@@ -6,4 +6,8 @@ export default async function config(eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
   eleventyConfig.setOutputDirectory("dist");
   eleventyConfig.addPlugin(HtmlBasePlugin);
+
+  return {
+    pathPrefix: "/domain-maps",
+  };
 }
